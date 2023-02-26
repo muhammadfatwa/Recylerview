@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="7dp"
+    app:cardCornerRadius="7dp"
+    android:layout_margin="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:id="@+id/rv_kacamata"
+            android:src="@drawable/clearblack"
+            android:layout_height="130dp"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/txtkachitam"
+            android:text="Kcamata ClearBlack"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+        
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
